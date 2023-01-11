@@ -14,6 +14,7 @@ public static void main(String[] args) {
 	options.addArguments("start-maximized");
 	options.addArguments("--incognito");
 	WebDriver driver = new ChromeDriver(options);
+	System.out.println("gg");
 	driver.get("http://demo.guru99.com/test/link.html");
 	//driver.findElement(By.linkText("click here")).click();
 	driver.findElement(By.xpath("/html/body/a[2]")).click();
